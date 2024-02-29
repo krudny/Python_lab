@@ -6,7 +6,7 @@ def bal(expression, operator):
             bracket_count += 1
         elif expression[i] == ')':
             bracket_count -= 1
-        elif expression[i] == operator and bracket_count == 0:
+        elif expression[i] in operator and bracket_count == 0:
             return i
 
     return None
