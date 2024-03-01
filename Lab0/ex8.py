@@ -17,4 +17,3 @@ def tautology(expression):
     return True
 
 
-print(tautology('a>(b&c)'))
