@@ -1,7 +1,7 @@
 import string
 
-variables = string.ascii_lowercase
-operators = '|&>'
+variables = string.ascii_lowercase+'0'+'1'
+operators = '|&>^'
 
 
 def check(expression):

@@ -8,6 +8,8 @@ def val(expression):
             p = int(stack.pop())
             q = int(stack.pop())
 
+            if char == '^':
+                stack.append((p and not q) or (not p and q))
             if char == '|':
                 stack.append(p or q)
             elif char == '&':
